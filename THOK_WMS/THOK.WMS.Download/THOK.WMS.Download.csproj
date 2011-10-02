@@ -1,0 +1,79 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5E29EC7D-150D-4D2E-869F-355705801D41}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>THOK.WMS.Down</RootNamespace>
+    <AssemblyName>THOK.WMS.Down</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="THOK.Util, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Reference\THOK.Util.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bll\DownCustomerBll.cs" />
+    <Compile Include="Bll\DownDeptBll.cs" />
+    <Compile Include="Bll\DownDistBll.cs" />
+    <Compile Include="Bll\DownInBillBll.cs" />
+    <Compile Include="Bll\DownOrdDistBll.cs" />
+    <Compile Include="Bll\DownOrgBll.cs" />
+    <Compile Include="Bll\DownOutBillBll.cs" />
+    <Compile Include="Bll\DownProductBll.cs" />
+    <Compile Include="Bll\DownReachBll.cs" />
+    <Compile Include="Bll\DownRouteBll.cs" />
+    <Compile Include="Bll\DownSaleRegionBll.cs" />
+    <Compile Include="Bll\DownSortingOrderBll.cs" />
+    <Compile Include="Bll\DownSupplierBll.cs" />
+    <Compile Include="Bll\DownUnitBll.cs" />
+    <Compile Include="Dao\DownCustomerDao.cs" />
+    <Compile Include="Dao\DownDeptDao.cs" />
+    <Compile Include="Dao\DownDistDao.cs" />
+    <Compile Include="Dao\DownInBillDao.cs" />
+    <Compile Include="Dao\DownOrdDistDao.cs" />
+    <Compile Include="Dao\DownOrgDao.cs" />
+    <Compile Include="Dao\DownOutBillDao.cs" />
+    <Compile Include="Dao\DownProductDao.cs" />
+    <Compile Include="Dao\DownReachDao.cs" />
+    <Compile Include="Dao\DownRouteDao.cs" />
+    <Compile Include="Dao\DownSaleRegionDao.cs" />
+    <Compile Include="Dao\DownSortingOrderDao.cs" />
+    <Compile Include="Dao\DownSupplierDao.cs" />
+    <Compile Include="Dao\DownUnitDao.cs" />
+    <Compile Include="UtinString.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

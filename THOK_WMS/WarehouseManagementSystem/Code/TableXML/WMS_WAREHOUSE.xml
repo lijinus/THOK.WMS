@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TABLE name="V_WMS_WAREHOUSE" ChineseName="仓库信息" PrimaryKey="WH_CODE" OrderBy="WH_CODE" 
+       ViewName="V_WMS_WAREHOUSE">
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="0">
+    <FieldName>WH_ID</FieldName>
+    <FieldTitle>ID</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>int</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_WH_ID</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="1">
+    <FieldName>WH_CODE</FieldName>
+    <FieldTitle>仓库编码</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_WH_CODE</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="2">
+    <FieldName>WH_NAME</FieldName>
+    <FieldTitle>仓库名称</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_WH_NAME</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="3">
+    <FieldName>SHORTNAME</FieldName>
+    <FieldTitle>仓库简称</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_SHORTNAME</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="4">
+    <FieldName>DEFAULTUNIT</FieldName>
+    <FieldTitle>默认单位</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_DEFAULTUNIT</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="4">
+    <FieldName>UNITNAME</FieldName>
+    <FieldTitle>单位名称</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_UNITNAME</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="5">
+    <FieldName>WH_TYPE</FieldName>
+    <FieldTitle>仓库类型</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_WH_TYPE</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="6">
+    <FieldName>WH_AREA</FieldName>
+    <FieldTitle>仓库面积</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>decimal</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_WH_AREA</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="7">
+    <FieldName>CITYCODE</FieldName>
+    <FieldTitle>市区代码</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_CITYCODE</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="8">
+    <FieldName>CAPACITY</FieldName>
+    <FieldTitle>仓库容量</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>int</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_CAPACITY</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="9">
+    <FieldName>WH_AMOUNT</FieldName>
+    <FieldTitle>仓库个数</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>int</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_WH_AMOUNT</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="10">
+    <FieldName>SORTLINE</FieldName>
+    <FieldTitle>分拣线条数</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>int</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_SORTLINE</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="11">
+    <FieldName>ISACTIVE</FieldName>
+    <FieldTitle>是否启用</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_ISACTIVE</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="12">
+    <FieldName>MEMO</FieldName>
+    <FieldTitle>备注</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_MEMO</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+</TABLE>

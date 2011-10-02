@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TABLE name="sys_ExceptionalLog" ChineseName="系统故障日志" PrimaryKey="ExceptionalLogID" OrderBy="ExceptionalLogID desc"
+       SubModuleCode="LIP_M00H_00D"
+       ViewName="sys_ExceptionalLog">
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="T">
+    <FieldName>ExceptionalLogID</FieldName>
+    <FieldTitle>ID</FieldTitle>
+    <DataType>long</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_ExceptionalLogID</ControlID>
+    <ControlType>TextBox</ControlType>
+    <Validate NotNull="" onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F">
+    <FieldName>CatchTime</FieldName>
+    <FieldTitle>故障出现时间</FieldTitle>
+    <DataType>DateTime</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_CatchTime</ControlID>
+    <ControlType>TextBox</ControlType>
+    <Validate NotNull="" onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F">
+    <FieldName>ModuleName</FieldName>
+    <FieldTitle>模块名称</FieldTitle>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_ModuleName</ControlID>
+    <ControlType>TextBox</ControlType>
+    <Validate NotNull="" onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F">
+    <FieldName>FunctionName</FieldName>
+    <FieldTitle>方法名称</FieldTitle>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_FunctionName</ControlID>
+    <ControlType>TextBox</ControlType>
+    <Validate NotNull="" onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F">
+    <FieldName>ExceptionalType</FieldName>
+    <FieldTitle>错误类型</FieldTitle>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_ExceptionalType</ControlID>
+    <ControlType>TextBox</ControlType>
+    <Validate NotNull="" onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F">
+    <FieldName>ExceptionalDescription</FieldName>
+    <FieldTitle>错误描述</FieldTitle>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_ExceptionalDescription</ControlID>
+    <ControlType>TextBox</ControlType>
+    <Validate NotNull="" onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="F" DisplayWhenEdit="F" HIDDEN="F">
+    <FieldName>State</FieldName>
+    <FieldTitle></FieldTitle>
+    <DataType>int</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_State</ControlID>
+    <ControlType>TextBox</ControlType>
+    <Validate NotNull="" onfocus="" onblur=""></Validate>
+  </FIELD>
+</TABLE>

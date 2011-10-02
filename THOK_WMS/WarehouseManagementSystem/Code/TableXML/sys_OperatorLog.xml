@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TABLE name="sys_OperatorLog" ChineseName="操作日志" PrimaryKey="OperatorLogID" OrderBy="OperatorLogID desc" 
+       SubModuleCode="LIP_M00H_00C"
+       ViewName="sys_OperatorLog">
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="T">
+    <FieldName>OperatorLogID</FieldName>
+    <FieldTitle>ID</FieldTitle>
+    <DataType>long</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_OperatorLogID</ControlID>
+    <ControlType>TextBox</ControlType>
+    <Validate NotNull="" onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F">
+    <FieldName>LoginUser</FieldName>
+    <FieldTitle>登录用户</FieldTitle>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_LoginUser</ControlID>
+    <ControlType>TextBox</ControlType>
+    <Validate NotNull="" onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F">
+    <FieldName>LoginTime</FieldName>
+    <FieldTitle>登录时间</FieldTitle>
+    <DataType>DateTime</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_LoginTime</ControlID>
+    <ControlType>TextBox</ControlType>
+    <Validate NotNull="" onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F">
+    <FieldName>LoginModule</FieldName>
+    <FieldTitle>登录模块</FieldTitle>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_LoginModule</ControlID>
+    <ControlType>TextBox</ControlType>
+    <Validate NotNull="" onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F">
+    <FieldName>ExecuteOperator</FieldName>
+    <FieldTitle>执行操作</FieldTitle>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_ExecuteOperator</ControlID>
+    <ControlType>TextBox</ControlType>
+    <Validate NotNull="" onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="F" DisplayWhenEdit="F" HIDDEN="F">
+    <FieldName>State</FieldName>
+    <FieldTitle></FieldTitle>
+    <DataType>int</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_State</ControlID>
+    <ControlType>TextBox</ControlType>
+    <Validate NotNull="" onfocus="" onblur=""></Validate>
+  </FIELD>
+</TABLE>

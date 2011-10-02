@@ -1,0 +1,490 @@
+﻿/* 刷新*/
+.ButtonRefresh
+{
+    font-family: "Tahoma", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+/*     BORDER-BOTTOM: #ffffff 0px solid;  
+    BORDER-LEFT: #93bee2 0px solid;  
+    BORDER-RIGHT: #93bee2 0px solid;  
+    BORDER-TOP: #93bee2 0px solid; */
+    background-image:url(../images/op/refresh.gif); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    padding-left:10px;
+    font-style: normal ; 
+    height:20px;
+}
+
+/* 图表分析*/
+.ButtonChart
+{
+    font-family: "Tahoma", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+/*     BORDER-BOTTOM: #ffffff 0px solid;  
+    BORDER-LEFT: #93bee2 0px solid;  
+    BORDER-RIGHT: #93bee2 0px solid;  
+    BORDER-TOP: #93bee2 0px solid; */
+    background-image:url(../images/op/chart.gif); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    padding-left:10px;
+    font-style: normal ; 
+    height:20px;
+}
+
+/* 汇总统计（添加、累计）*/
+.ButtonChartAdd
+{
+    font-family: "Tahoma", "宋体"; 
+    font-size:9pt;
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+/*     BORDER-BOTTOM: #ffffff 0px solid;  
+    BORDER-LEFT: #93bee2 0px solid;  
+    BORDER-RIGHT: #93bee2 0px solid;  
+    BORDER-TOP: #93bee2 0px solid; */
+    background-image:url(../images/op/chart_add.gif); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    padding-left:10px;
+    font-style: normal ; 
+    height:20px;
+}
+
+
+
+/* 查看*/
+.ButtonView
+{
+    font-family: "Tahoma", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+/*     BORDER-BOTTOM: #ffffff 0px solid;  
+    BORDER-LEFT: #93bee2 0px solid;  
+    BORDER-RIGHT: #93bee2 0px solid;  
+    BORDER-TOP: #93bee2 0px solid; */
+    background-image:url(../images/op/view.gif); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    padding-left:10px;
+    font-style: normal ; 
+    height:20px;
+}
+
+
+/* 选择*/
+.ButtonSelect
+{
+    font-family: "Tahoma", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+/*     BORDER-BOTTOM: #ffffff 0px solid;  
+    BORDER-LEFT: #93bee2 0px solid;  
+    BORDER-RIGHT: #93bee2 0px solid;  
+    BORDER-TOP: #93bee2 0px solid; */
+    background-image:url(../images/op/select.gif); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    padding-left:10px;
+    font-style: normal ; 
+    height:20px;
+}
+
+/* 返回*/
+.ButtonBack
+{
+    font-family: "Tahoma", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+/*     BORDER-BOTTOM: #ffffff 0px solid;  
+    BORDER-LEFT: #93bee2 0px solid;  
+    BORDER-RIGHT: #93bee2 0px solid;  
+    BORDER-TOP: #93bee2 0px solid; */
+    background-image:url(../images/op/back.gif); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    padding-left:10px;
+    font-style: normal ; 
+    height:20px;
+}
+
+/* 取消*/
+.ButtonCancel
+{
+    font-family: "Tahoma", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+/*     BORDER-BOTTOM: #ffffff 0px solid;  
+    BORDER-LEFT: #93bee2 0px solid;  
+    BORDER-RIGHT: #93bee2 0px solid;  
+    BORDER-TOP: #93bee2 0px solid; */
+    background-image:url(../images/op/cancel.gif); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    padding-left:10px;
+    font-style: normal ; 
+    height:20px;
+} 
+
+/* 清空*/
+.ButtonClear
+{
+    font-family: "Tahoma", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+/*     BORDER-BOTTOM: #ffffff 0px solid;  
+    BORDER-LEFT: #93bee2 0px solid;  
+    BORDER-RIGHT: #93bee2 0px solid;  
+    BORDER-TOP: #93bee2 0px solid; */
+    background-image:url(../images/op/clear.gif); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    padding-left:10px;
+    font-style: normal ; 
+    height:20px;
+} 
+.ButtonClear2
+{
+    font-family: "Tahoma", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+    background-image:url(../images/op/clear2.gif); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    height:22px;
+    width:18px;
+} 
+
+/* 清空所有*/
+.ButtonClearAll
+{
+    font-family: "Tahoma", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+/*     BORDER-BOTTOM: #ffffff 0px solid;  
+    BORDER-LEFT: #93bee2 0px solid;  
+    BORDER-RIGHT: #93bee2 0px solid;  
+    BORDER-TOP: #93bee2 0px solid; */
+    background-image:url(../images/op/trash.gif); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    padding-left:10px;
+    font-style: normal ; 
+    height:20px;
+} 
+
+/* 保存*/
+.ButtonSave
+{
+    font-family: "Tahoma", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+/*     BORDER-BOTTOM: #ffffff 0px solid;  
+    BORDER-LEFT: #93bee2 0px solid;  
+    BORDER-RIGHT: #93bee2 0px solid;  
+    BORDER-TOP: #93bee2 0px solid; */
+    background-image:url(../images/op/save.png); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    padding-left:10px;
+    font-style: normal ; 
+    height:20px;
+}
+
+
+/* 新建*/
+.ButtonCreate
+{
+    font-family: "Tahoma", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+/*     BORDER-BOTTOM: #ffffff 0px solid;  
+    BORDER-LEFT: #93bee2 0px solid;  
+    BORDER-RIGHT: #93bee2 0px solid;  
+    BORDER-TOP: #93bee2 0px solid; */
+    background-image:url(../images/op/create.gif); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    padding-left:10px;
+    font-style: normal ;  
+    height:20px;
+}
+
+/* 修改*/
+.ButtonModify
+{
+    font-family: "Tahoma", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+/*     BORDER-BOTTOM: #ffffff 0px solid;  
+    BORDER-LEFT: #93bee2 0px solid;  
+    BORDER-RIGHT: #93bee2 0px solid;  
+    BORDER-TOP: #93bee2 0px solid; */
+    background-image:url(../images/op/modify.gif); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    padding-left:10px;
+    font-style: normal ; 
+    height:20px;
+}
+
+/* 删除*/
+.ButtonDel
+{
+    font-family: "Tahoma", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+/*     BORDER-BOTTOM: #ffffff 0px solid;  
+    BORDER-LEFT: #93bee2 0px solid;  
+    BORDER-RIGHT: #93bee2 0px solid;  
+    BORDER-TOP: #93bee2 0px solid; */
+    background-image:url(../images/op/del.gif); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    padding-left:10px;
+    font-style: normal ; 
+    height:20px;
+}
+
+/* 下载 */
+.ButtonDown
+{
+	font-family: "Tahoma", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+/*     BORDER-BOTTOM: #ffffff 0px solid;  
+    BORDER-LEFT: #93bee2 0px solid;  
+    BORDER-RIGHT: #93bee2 0px solid;  
+    BORDER-TOP: #93bee2 0px solid; */
+    background-image:url(../images/op/down.jpg); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    padding-left:10px;
+    font-style: normal ; 
+    height:20px;
+}
+
+/* 导出到EXCEL*/
+.ButtonExport
+{
+    font-family: "Tahoma", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+/*     BORDER-BOTTOM: #ffffff 0px solid;  
+    BORDER-LEFT: #93bee2 0px solid;  
+    BORDER-RIGHT: #93bee2 0px solid;  
+    BORDER-TOP: #93bee2 0px solid; */
+    background-image:url(../images/op/excel.gif); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    padding-left:10px;
+    font-style: normal ; 
+    height:20px;
+}
+
+/* 打印*/
+.ButtonPrint
+{
+    font-family: "Tahoma", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+/*     BORDER-BOTTOM: #ffffff 0px solid;  
+    BORDER-LEFT: #93bee2 0px solid;  
+    BORDER-RIGHT: #93bee2 0px solid;  
+    BORDER-TOP: #93bee2 0px solid; */
+    background-image:url(../images/op/print.gif); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    padding-left:10px;
+    font-style: normal ; 
+    height:20px;
+}
+
+/* 查询*/
+.ButtonQuery
+{
+    font-family: "Tahoma", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+/*     BORDER-BOTTOM: #ffffff 0px solid;  
+    BORDER-LEFT: #93bee2 0px solid;  
+    BORDER-RIGHT: #93bee2 0px solid;  
+    BORDER-TOP: #93bee2 0px solid; */
+    background-image:url(../images/op/search.gif); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    padding-left:10px;
+    font-style: normal ; 
+    height:20px;
+}
+
+/* 退出*/
+.ButtonExit
+{
+    font-family: "Tahoma", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+/*     BORDER-BOTTOM: #ffffff 0px solid;  
+    BORDER-LEFT: #93bee2 0px solid;  
+    BORDER-RIGHT: #93bee2 0px solid;  
+    BORDER-TOP: #93bee2 0px solid; */
+    background-image:url(../images/op/exit.gif); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    padding-left:10px;
+    font-style: normal ; 
+    height:20px;
+}
+
+/* 审核*/
+.ButtonAudit
+{
+    font-family: "Tahoma", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+/*     BORDER-BOTTOM: #ffffff 0px solid;  
+    BORDER-LEFT: #93bee2 0px solid;  
+    BORDER-RIGHT: #93bee2 0px solid;  
+    BORDER-TOP: #93bee2 0px solid; */
+    background-image:url(../images/op/priv_0.gif); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    padding-left:10px;
+    font-style: normal ; 
+    height:20px;
+}
+
+
+.ButtonAudit2
+{
+    font-family: "Tahoma", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    background-color:Transparent;
+/*     BORDER-BOTTOM: #ffffff 0px solid;  
+    BORDER-LEFT: #93bee2 0px solid;  
+    BORDER-RIGHT: #93bee2 0px solid;  
+    BORDER-TOP: #93bee2 0px solid; */
+    background-image:url(../images/op/priv_2.gif); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    padding-left:10px;
+    font-style: normal ; 
+    height:20px;
+}
+
+
+/* 浏览*/
+.ButtonBrowse
+{
+	font-family: "Tahoma", "宋体"; 
+    font-size:9pt;  
+    border: 1px Gray solid; 
+    width:23px;
+    height:20px;
+}
+.ButtonBrowse2
+{
+    font-size:9pt;  
+    border: 0px Gray solid; 
+    width:18px;
+    height:22px;
+    background-image:url(../images/op/browse2.gif); 
+    background-repeat:no-repeat;
+}
+
+.ButtonOption
+{
+    border-bottom: #ffffff 0px solid;  
+    BORDER-LEFT: #93bee2 1px solid;  
+    BORDER-RIGHT: #93bee2 1px solid;  
+    BORDER-TOP: #93bee2 1px solid; 
+    background-color:Transparent;
+}
+
+.ButtonDate
+{
+    border: 0px #ff0000 solid; 
+    background-image:url(../images/op/Icon.DatePick.gif); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    font-style: normal ; 
+    height:18px;
+    width:20px;
+}
+
+.ButtonImage
+{
+    border: 0px #ff0000 solid; 
+    background-image:url(../images/op/viewpic.gif); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    font-style: normal ; 
+    height:18px;
+    width:18px;
+}
+
+.ButtonPrevious
+{
+    border: 0px #ff0000 solid; 
+    background-image:url(../images/op/back2.jpg); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    font-style: normal ; 
+    height:29px;
+    width:63px;
+}
+
+.ButtonPreviousDisable
+{
+    border: 0px #ff0000 solid; 
+    background-image:url(../images/op/back_gray.jpg); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    font-style: normal ; 
+    height:29px;
+    width:63px;
+}
+
+.ButtonNext
+{
+    border: 0px #ff0000 solid; 
+    background-image:url(../images/op/next2.jpg); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    font-style: normal ; 
+    height:29px;
+    width:63px;	
+}
+
+.ButtonNextDisable
+{
+    border: 0px #ff0000 solid; 
+    background-image:url(../images/op/next_gray.jpg); 
+    background-repeat:no-repeat;
+    CURSOR: hand; 
+    font-style: normal ; 
+    height:29px;
+    width:63px;	
+}

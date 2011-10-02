@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<Connections>
+ <Connection Name = "DefaultConnection" DatabaseType = "SQLSERVER">
+    <ConnectionString Value = "server=10.66.64.57;database =THOK_WMS_DATA;UID =sa" />
+    <Password Name = "PWD" Value = "65CED0851FFD283F"/>
+  </Connection>
+
+  <Connection Name = "YXConnection" DatabaseType="DB2">
+    <ConnectionString Value="server=10.66.65.51:50000;database =tradectr;UID=ic" />
+    <Password Name="PWD" Value="76CBF27DE3DFFA09740A8CDF7192058B"/>
+  </Connection>
+<Connection Name = "ZYDB2Connection" DatabaseType="DB2">
+    <ConnectionString Value="server=10.66.65.30:50000;database =wlctr;UID=ms" />
+    <Password Name="PWD" Value="A0E5B8AA619AE888"/>
+  </Connection>
+</Connections>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TABLE name="sys_GroupList" ChineseName="用户组" PrimaryKey="GroupID" OrderBy="GroupID" SubModuleCode="LIP_M00H_00G" 
+       ViewName="v_sys_GroupList">
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="T">
+    <FieldName>GroupID</FieldName>
+    <FieldTitle>用户组ID</FieldTitle>
+    <DataType>long</DataType>
+    <DefaultValue>identity</DefaultValue>
+    <ControlID>txt_GroupID</ControlID>
+    <ControlType>TextBox</ControlType>
+    <Validate NotNull="" onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F">
+    <FieldName>GroupName</FieldName>
+    <FieldTitle>用户组名称</FieldTitle>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_GroupName</ControlID>
+    <ControlType>TextBox</ControlType>
+    <Validate NotNull="Y" onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F">
+    <FieldName>Memo</FieldName>
+    <FieldTitle>备注</FieldTitle>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_Memo</ControlID>
+    <ControlType>MultiLineTextBox</ControlType>
+    <Validate NotNull="" onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="F" DisplayWhenEdit="F" HIDDEN="F">
+    <FieldName>State</FieldName>
+    <FieldTitle></FieldTitle>
+    <DataType>int</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_State</ControlID>
+    <ControlType>TextBox</ControlType>
+    <Validate NotNull="" onfocus="" onblur=""></Validate>
+  </FIELD>
+</TABLE>

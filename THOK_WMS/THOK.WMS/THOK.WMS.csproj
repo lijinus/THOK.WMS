@@ -1,0 +1,134 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{05A7A109-5A94-42E9-853A-46A586772FCC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>THOK.WMS</RootNamespace>
+    <AssemblyName>THOK.WMS</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="THOK.Util, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Reference\THOK.Util.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\Alarm.cs" />
+    <Compile Include="BLL\Balance.cs" />
+    <Compile Include="BLL\BillExcelBLL.cs" />
+    <Compile Include="BLL\BillType.cs" />
+    <Compile Include="BLL\CheckBillDetail.cs" />
+    <Compile Include="BLL\CheckBillMaster.cs" />
+    <Compile Include="BLL\Company.cs" />
+    <Compile Include="BLL\Comparison.cs" />
+    <Compile Include="BLL\DeliveryAllot.cs" />
+    <Compile Include="BLL\DeliveryBillDetail.cs" />
+    <Compile Include="BLL\DeliveryBillMaster.cs" />
+    <Compile Include="BLL\Department.cs" />
+    <Compile Include="BLL\Employee.cs" />
+    <Compile Include="BLL\EntryAllot.cs" />
+    <Compile Include="BLL\EntryBillDetail.cs" />
+    <Compile Include="BLL\EntryBillMaster.cs" />
+    <Compile Include="BLL\Excel.cs" />
+    <Compile Include="BLL\MoveBillDetail.cs" />
+    <Compile Include="BLL\MoveBillMaster.cs" />
+    <Compile Include="BLL\Parameter.cs" />
+    <Compile Include="BLL\Product.cs" />
+    <Compile Include="BLL\ProductClass.cs" />
+    <Compile Include="BLL\ProfitLossBillDetail.cs" />
+    <Compile Include="BLL\ProfitLossBillMaster.cs" />
+    <Compile Include="BLL\RemoteInterfaceDal.cs" />
+    <Compile Include="BLL\ScheduleEventArgs.cs" />
+    <Compile Include="BLL\SortingGroupBll.cs" />
+    <Compile Include="BLL\SortingOrderBll.cs" />
+    <Compile Include="BLL\SortingOrderDetailBll.cs" />
+    <Compile Include="BLL\SortingOrderStateBll.cs" />
+    <Compile Include="BLL\SortingRouteBll.cs" />
+    <Compile Include="BLL\StockBLL.cs" />
+    <Compile Include="BLL\Supplier.cs" />
+    <Compile Include="BLL\Unit.cs" />
+    <Compile Include="BLL\UtinString.cs" />
+    <Compile Include="BLL\Warehouse.cs" />
+    <Compile Include="BLL\WarehouseArea.cs" />
+    <Compile Include="BLL\WarehouseCell.cs" />
+    <Compile Include="BLL\WarehouseShelf.cs" />
+    <Compile Include="Dao\AlarmDao.cs" />
+    <Compile Include="Dao\BalanceDao.cs" />
+    <Compile Include="Dao\BillExcelDao.cs" />
+    <Compile Include="Dao\BillTypeDao.cs" />
+    <Compile Include="Dao\CheckBillDetailDao.cs" />
+    <Compile Include="Dao\CheckBillMasterDao.cs" />
+    <Compile Include="Dao\CompanyDao.cs" />
+    <Compile Include="Dao\ComparisonDao.cs" />
+    <Compile Include="Dao\DeliveryAllotDao.cs" />
+    <Compile Include="Dao\DeliveryBillDetailDao.cs" />
+    <Compile Include="Dao\DeliveryBillMasterDao.cs" />
+    <Compile Include="Dao\DepartmentDao.cs" />
+    <Compile Include="Dao\EmployeeDao.cs" />
+    <Compile Include="Dao\EntryAllotDao.cs" />
+    <Compile Include="Dao\EntryBillDetailDao.cs" />
+    <Compile Include="Dao\EntryBillMasterDao.cs" />
+    <Compile Include="Dao\MoveBillDetailDao.cs" />
+    <Compile Include="Dao\MoveBillMasterDao.cs" />
+    <Compile Include="Dao\ParameterDao.cs" />
+    <Compile Include="Dao\ProductClass.cs" />
+    <Compile Include="Dao\ProductDao.cs" />
+    <Compile Include="Dao\ProfitLossBillDetailDao.cs" />
+    <Compile Include="Dao\ProfitLossBillMasterDao.cs" />
+    <Compile Include="Dao\RemoteInterfaceDao.cs" />
+    <Compile Include="Dao\SortingGroupDao.cs" />
+    <Compile Include="Dao\SortingOrderDao.cs" />
+    <Compile Include="Dao\SortingOrderDetailBllDao.cs" />
+    <Compile Include="Dao\SortingOrderStateDao.cs" />
+    <Compile Include="Dao\SortingRouteDao.cs" />
+    <Compile Include="Dao\StockDao.cs" />
+    <Compile Include="Dao\SupplierDao.cs" />
+    <Compile Include="Dao\UnitDao.cs" />
+    <Compile Include="Dao\WarehouseAreaDao.cs" />
+    <Compile Include="Dao\WarehouseCellDao.cs" />
+    <Compile Include="Dao\WarehouseDao.cs" />
+    <Compile Include="Dao\WarehouseShelfDao.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

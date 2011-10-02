@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TABLE name="WMS_PRODUCTCLASS" ChineseName="产品类别" PrimaryKey="CLASSCODE" OrderBy="CLASSCODE" 
+       ViewName="WMS_PRODUCTCLASS">
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="0">
+    <FieldName>ID</FieldName>
+    <FieldTitle>ID</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>int</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_ID</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="1">
+    <FieldName>CLASSCODE</FieldName>
+    <FieldTitle>类别编码</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_CLASSCODE</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="2">
+    <FieldName>CLASSNAME</FieldName>
+    <FieldTitle>类别名称</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_CLASSNAME</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="3">
+    <FieldName>MEMO</FieldName>
+    <FieldTitle>备注</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_MEMO</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+</TABLE>

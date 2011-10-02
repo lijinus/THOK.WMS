@@ -1,0 +1,528 @@
+/* CSS Document 
+html { filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); }*/
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-size:12px;
+	font-weight: lighter;
+	font-family:"宋体";
+	background-image: url(../images/bg.gif);
+}
+
+
+ .ButtonCss 
+ {
+    font-family: "Tahoma", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    color:#000; 
+    BORDER-BOTTOM: #ffffff 0px solid;  
+    BORDER-LEFT: #93bee2 0px solid;  
+    BORDER-RIGHT: #93bee2 0px solid;  
+    BORDER-TOP: #93bee2 0px solid; 
+    background-image:url(../images/button.gif); 
+    CURSOR: hand; 
+    font-style: normal ; 
+    width:57px; 
+    height:20px;
+	
+}
+
+ table, tr, td
+{
+	margin: 0;
+	font-size: 12px;
+}
+
+select
+{
+	font-size: 12px; color: #000000; font-weight: normal;
+	border-top-width : 1px; border-right-width : 1px;
+	border-bottom-width : 1px; border-left-width : 1px;
+}
+
+#header
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+#wrap
+{
+    width: 100%;
+    height: auto;
+}
+
+/*站点的头*/
+#header
+{
+    border-top: 3px solid #B3B3FD;
+    border-bottom: 1px dotted #B3B3FD;
+    height: 3em;
+    margin-bottom : 1em;
+}
+
+#pager input
+{
+	height:18px;
+}
+#pager2 input
+{
+	height:18px;
+}
+#pager3 input
+{
+	height:18px;
+}
+
+.GridPager
+{
+   text-align:center;
+   font-size:12pt;
+    
+}
+
+.hidden
+{
+	display: none;
+}
+.UserNameError
+    {
+    background: #FFFFFF url(../images/UserNameError.jpg) no-repeat right top;
+    }
+    .UserNameCorrect
+    {
+    background: #FFFFFF url(../images/UserNameCorrect.jpg) no-repeat right top;
+    }
+    
+/***************************链接样式开始***/
+a:link, a:visited {
+	color:ButtonText;
+	text-decoration: none;
+}
+a:hover {
+	color: #ff3300;
+	text-decoration: underline;
+}
+
+
+/***************************链接样式结束***/    
+
+.btnOP
+{ 
+	/*
+FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#EBECEC, EndColorStr=#F4F4F5);
+*/
+    font-size:12px;
+	border: #dddddd 0px solid;
+	cursor:hand;
+	padding-top:3px;
+	padding-bottom:0px;
+	padding-left:2px;
+	padding-right:2px;
+	valign:middle;
+	background-color:Transparent;
+	
+}
+
+/*高级查询模板标题样式*/
+.tdTitle
+{
+  font-size:12px;
+  text-align:right;
+  vertical-align:middle;
+  padding-right:8px;
+  padding-top:3px;
+  padding-bottom:3px;
+  height:25px;
+  white-space:nowrap;
+  word-break:keep_all;
+}
+
+/*通用模板模块应用的文本框样式*/
+.TextBox
+{
+		BORDER-RIGHT: 1px solid ; 
+		BORDER-TOP: 1px solid ;   
+		BORDER-LEFT: 1px solid ; 
+		BORDER-BOTTOM: 1px solid ;
+
+		border-color:Black;
+		font-size: 12px; 
+		color:Black; 
+		font-family: "宋体";
+		width:200px;
+		height:20px;
+}
+
+
+.TextBoxFocus2
+{
+	    position:absolute;
+	 	BORDER-RIGHT: 1px solid ; 
+		BORDER-TOP: 1px solid ;   
+		BORDER-LEFT: 1px solid ; 
+		BORDER-BOTTOM: 1px solid ;
+
+		border-color:Black;
+		font-size: 12px; 
+		color:Black; 
+		font-family: "宋体";
+		width:150px;
+		height:150px;
+}
+
+/*文本框样式*/
+.myinput {
+	background-attachment: fixed;
+	background-image: url(../images/search_inputbackground.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #999999;
+	height:22px;
+	padding:2px 2px 2px;
+	width:150px;
+}
+
+.myinput_right {
+	background-attachment: fixed;
+	background-image: url(../images/search_inputbackground.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #999999;
+	height:22px;
+	padding:2px 2px 2px;
+	width:150px;
+	text-align:right;
+}
+
+.myinput_code {
+	background-attachment: fixed;
+	background-image: url(../images/myinputbackground_code.gif);
+	background-repeat: repeat-x;
+	background-position:right;
+	border: 1px solid #999999;
+	height:22px;
+	padding:2px 2px 2px;
+	width:150px;
+}
+
+.myinputfocus {
+	background-attachment: fixed;
+	background-image: url(../images/search_inputbackgroundfocus.gif);
+	background-repeat: repeat-x;
+	height:24px;
+	padding:2px 2px 2px;
+	border: 1px solid #009900;
+	filter: Glow(Color=green, Strength=2); 
+	width:150px;
+}   
+
+td[scope] {
+ font-weight :normal;
+ color:Navy;
+}
+.GridHeader2
+{
+   background-image: url(../images/bg_head2.jpg);
+   height:28px; 
+   text-align:center;
+   padding-left:1em; 
+   padding-right:1em; 
+   white-space:nowrap;
+   font-weight:normal;
+   color:black;
+
+}
+.GridHeader
+{
+   background-image: url(../images/bg_head2.JPG);
+   height:28px; 
+   text-align:center;
+   padding-left:1em; 
+   padding-right:1em; 
+   white-space:nowrap;
+   word-break:keep-all;
+   font-weight:normal;
+}
+
+
+/*网格控件编辑样式*/
+.GridInputAlignLeft
+{
+	    position:relative;
+	    border-left: 1px solid ; 
+		BORDER-RIGHT: 1px solid ;           /*定义右侧，1象素，实线*/
+		BORDER-TOP: 1px solid ;
+		BORDER-BOTTOM: 1px solid ;
+		
+		PADDING-LEFT: 1px;
+		PADDING-RIGHT: 1px;                 /*定义右侧填充距*/
+		PADDING-TOP: 1px; 
+		PADDING-BOTTOM: 1px;              /*填充距*/		width:98%;
+		
+		font-size: 12px; 
+		border-color:#b4b4b4;
+		font-family: "宋体";
+		height:22px;
+
+		background-color:#fffeee;
+		text-align:left;
+}
+
+.GridInputAlignRight
+{
+	    position:relative;
+	    border-left: 1px solid ; 
+		BORDER-RIGHT: 1px solid ;           /*定义右侧，1象素，实线*/
+		BORDER-TOP: 1px solid ;
+		BORDER-BOTTOM: 1px solid ;
+		
+		PADDING-LEFT: 1px;
+		PADDING-RIGHT: 1px;                 /*定义右侧填充距*/width:98%;
+		PADDING-TOP: 1px; 
+		PADDING-BOTTOM: 1px;              /*填充距*/
+		
+		font-size: 12px; 
+		border-color:#b4b4b4;
+		font-family: "宋体";
+		height:22px;
+		
+		background-color:#fffeee;
+		text-align:right;
+}
+
+.GridInput
+{
+	    position:relative;
+	    border-left: 0px solid ; 
+		BORDER-RIGHT: 0px solid ;           /*定义右侧，1象素，实线*/		BORDER-TOP: 0px solid ;		BORDER-BOTTOM: 0px solid ;				PADDING-LEFT: 1px;		PADDING-RIGHT: 1px;                 /*定义右侧填充距*/		PADDING-TOP: 1px; 		PADDING-BOTTOM: 1px;              /*填充距*/				font-size: 12px; 		color: #000000; 		font-family: "宋体";
+		height:20px;
+		width:99%;
+		background-color:Transparent;
+}
+
+.GridInputFocus
+{
+	    position:relative;
+	    border-left: 1px solid ; 
+		BORDER-RIGHT: 1px solid ;           /*定义右侧，1象素，实线*/
+		BORDER-TOP: 1px solid ;
+		BORDER-BOTTOM: 1px solid ;
+		
+		PADDING-LEFT: 1px;
+		PADDING-RIGHT: 1px;                 /*定义右侧填充距*/
+		PADDING-TOP: 1px; 
+		PADDING-BOTTOM: 1px;              /*填充距*/
+		
+		font-size: 12px; 
+		color: #000000; 
+		font-family: "宋体";
+		height:22px;
+		width:98%;
+		background-color:white;
+}
+/*网格编辑样式end*/
+
+
+.DisabledTextBox
+{
+		BORDER-RIGHT: 1px solid #5384bb; 
+		BORDER-TOP: 1px solid #5384bb;   
+		BORDER-LEFT: 1px solid #5384bb; 
+		BORDER-BOTTOM: 1px solid #5384bb;
+
+		font-size: 12px; 
+		color:Gray; 
+		font-family: "宋体";
+		width:200px;
+		height:22px;
+}
+
+.HiddenControl
+{
+		border:0px;
+		width:0px;
+		height:0px;
+}
+
+
+.TextBox
+{
+		BORDER-RIGHT: 1px solid #5384bb; 
+		BORDER-TOP: 1px solid #5384bb;   
+		BORDER-LEFT: 1px solid #5384bb; 
+		BORDER-BOTTOM: 1px solid #5384bb;
+
+		font-size: 12px; 
+		color:Black; 
+		font-family: "宋体";
+		width:200px;
+		height:20px;
+}
+
+.AutoCompleteTextBox
+{
+		BORDER-RIGHT: 1px solid #5384bb; 
+		BORDER-TOP: 1px solid #5384bb;   
+		BORDER-LEFT: 1px solid #5384bb; 
+		BORDER-BOTTOM: 1px solid #5384bb;
+		background:#f4f4f4 url(../images/op/autocomplete.gif) no-repeat right bottom;
+		font-size: 12px; 
+		color:Black; 
+		font-family: "宋体";
+		width:200px;
+		height:22px;
+}
+
+.MultiLineTextBox
+{
+		BORDER-RIGHT:1px solid #5384bb; 
+		BORDER-TOP: 1px solid #5384bb;   
+		BORDER-LEFT: 1px solid #5384bb; 
+		BORDER-BOTTOM: 1px solid #5384bb;
+		background-color:#f4f4f4; 
+		font-size: 12px; 
+		color:Black; 
+		font-family: "宋体";
+		width:200px;
+		height:88px;
+}
+
+.ErrorTextBox
+{
+		BORDER-RIGHT:1px solid #5384bb; 
+		BORDER-TOP: 1px solid #5384bb;   
+		BORDER-LEFT: 1px solid #5384bb; 
+		BORDER-BOTTOM: 1px solid #5384bb;
+		background:#f4f4f4 url(../images/InfoError.jpg) no-repeat right top;
+		font-size: 12px; 
+		color:Black; 
+		font-family: "宋体";
+		width:200px;
+		height:22px;
+}
+
+.CorrectTextBox
+{
+		BORDER-RIGHT:1px solid #5384bb; 
+		BORDER-TOP: 1px solid #5384bb;   
+		BORDER-LEFT: 1px solid #5384bb; 
+		BORDER-BOTTOM: 1px solid #5384bb;
+		background:#f4f4f4 url(../images/InfoCorrect.jpg) no-repeat right top;
+		font-size: 12px; 
+		color:Black; 
+		font-family: "宋体";
+		width:200px;
+		height:22px;
+}
+
+.EditDivStyle
+{
+	width:100%; 
+	height:100%; 
+	position:absolute; 
+	top:0px; 
+	left:0px; 
+	z-index:99; 
+	background-image: url(../images/bg.jpg);
+}
+
+
+.OperationBar
+{
+	width:100%; 
+	height:29px;
+    background-image: url(../images/bg_op2.jpg);
+    vertical-align:middle;
+}
+.OperationBar2
+{
+	width:100%; 
+	height:64px;
+    background-image: url(../images/bg_op3.jpg);
+    vertical-align:middle;
+}
+
+.GridStyle
+{
+	border-width:0;
+	background-color:#cccccc;
+}
+
+.edit_detail_header
+{
+	width:100%;
+	height:30px;
+	background-image:url(../images/pager_bg.gif); 
+	border-top:solid 1px darkgray;
+	border-left:solid 1px darkgray;
+	border-right:solid 1px darkgray;
+}
+
+.edit_detail_body
+{
+	padding:0px 1px 0px 1px; 
+	width:100%; overflow:auto; height:330px;  
+	background-color:#fefefe; border-left:solid 1px darkgray; 
+	border-right:solid 1px darkgray;border-bottom:solid 1px darkgray;
+}
+
+.edit_body
+{
+	padding:0px 0px 0px 0px; 
+	width:100%; overflow:auto; height:330px;  
+	background-color:White; 
+	border-left:solid 1px #d9d9d9; 
+	border-right:solid 1px #d9d9d9; 
+	border-bottom:solid 1px #d9d9d9;
+}
+
+/* 2011.4.26 */
+.edit_body_down
+{
+	padding:0px 0px 0px 0px; 
+	width:99%; overflow:auto; height:330px; 
+	outline-width:inherit;
+	background-color:White; 
+	border-left:solid 1px #d9d9d9; 
+	border-right:solid 1px #d9d9d9; 
+	border-bottom:solid 1px #d9d9d9;
+}
+
+.edit_detail_pager
+{
+	text-align:right;  
+	background-image:url(../images/pager_bg.gif); 
+	height:28px; padding-top:3px;
+}
+
+.edit_pager
+{
+	text-align:right;  
+	 background-color:#f7f7f7;
+	height:28px; padding-top:3px;
+}
+
+
+/* 2011.4.25*/
+.suggest_link
+{
+	background-color: #FFFFFF;
+	padding: 2px 6px 2px 6px;
+}
+
+.suggest_link_over
+{
+	background-color: #E8F2FE;
+	padding: 2px 6px 2px 6px;
+}
+
+#search_suggest
+{
+	position: absolute;
+	background-color: #FFFFFF;
+	text-align: left;
+	border: 1px solid #000000;
+}

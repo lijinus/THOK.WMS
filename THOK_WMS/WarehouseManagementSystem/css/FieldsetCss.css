@@ -1,0 +1,128 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:#666666;
+    text-align:center;
+    font-size:11px;
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+a {
+    color:#1E7ACE;
+    text-decoration:none;    
+}
+
+a:hover {
+    color:#000;
+    text-decoration:underline;
+}
+h3 {
+    font-size:14px;
+    font-weight:bold;
+}
+
+pre,p {
+    color:#1E7ACE;
+    margin:4px;
+}
+input, select,textarea {
+    padding:1px;
+    margin:2px;
+    font-size:11px;
+}
+.button2{
+    padding:1px 10px;
+    font-size:12px;
+    border:1px #1E7ACE solid;
+    background:#D0F0FF;
+}
+
+ .button
+ {
+    font-family: "Tahoma", "宋体"; 
+    font-size:9pt;  
+    border: 0px #ff0000 solid; 
+    color:#000; 
+    BORDER-BOTTOM: #ffffff 0px solid;  
+    BORDER-LEFT: #93bee2 0px solid;  
+    BORDER-RIGHT: #93bee2 0px solid;  
+    BORDER-TOP: #93bee2 0px solid; 
+    background-image:url(../images/button.gif); 
+    CURSOR: hand; 
+    font-style: normal ; 
+    width:57px; 
+    height:20px;
+	
+}
+
+#formwrapper {
+    width:450px;
+    margin:15px auto;
+    padding:20px;
+    text-align:left;
+    border:1px #1E7ACE solid;
+}
+
+fieldset {
+    padding:10px;
+    margin-top:5px;
+    border:1px solid #1e709b;
+    background:#fff;
+}
+
+fieldset legend {
+    color:#1e709b;
+    font-weight:bold;
+    padding:3px 20px 3px 20px;
+    border:1px solid #1e709b;    
+    background:#fff;
+}
+
+fieldset label {
+    float:left;
+    width:120px;
+    text-align:right;
+    padding:4px;
+    margin:1px;
+}
+
+fieldset div {
+    clear:left;
+    margin-bottom:2px;
+}
+
+.enter{ text-align:center;}
+.clear {
+    clear:both;
+}
+
+
+.HiddenControl
+{
+		border:0px;
+		width:0px;
+		height:0px;
+}
+
+.tdTitle
+{
+  font-size:12px;
+  text-align:right;
+  vertical-align:middle;
+  padding-right:8px;
+  padding-top:3px;
+  padding-bottom:3px;
+  height:25px;
+  width:80px;
+  white-space:nowrap;
+  word-break:keep_all;
+}
+
+.TextBoxRight
+{
+	text-align:right;
+}

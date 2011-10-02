@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TABLE name="WMS_UNIT" ChineseName="计量单位" PrimaryKey="ID" OrderBy="UNITCODE" 
+       ViewName="WMS_UNIT" PrefixText="">
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="0">
+    <FieldName>ID</FieldName>
+    <FieldTitle>ID</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>int</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_ID</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="1">
+    <FieldName>UNITCODE</FieldName>
+    <FieldTitle>单位编码</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_UNITCODE</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="2">
+    <FieldName>UNITNAME</FieldName>
+    <FieldTitle>单位名称</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_UNITNAME</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="3">
+    <FieldName>ISDEFAULT</FieldName>
+    <FieldTitle>默认单位</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_ISDEFAULT</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="4">
+    <FieldName>ISACTIVE</FieldName>
+    <FieldTitle>是否启用</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_ISACTIVE</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="5">
+    <FieldName>STANDARDRATE</FieldName>
+    <FieldTitle>与标准单位比率</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>double</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_STANDARDRATE</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="6">
+    <FieldName>MEMO</FieldName>
+    <FieldTitle>备注</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_MEMO</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+</TABLE>

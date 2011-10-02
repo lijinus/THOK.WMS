@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TABLE name="WMS_BILLTYPE" ChineseName="单据类型" PrimaryKey="ID" OrderBy="TYPECODE" ViewName="WMS_BILLTYPE">
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="0">
+    <FieldName>ID</FieldName>
+    <FieldTitle>ID</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>int</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_ID</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="1">
+    <FieldName>TYPECODE</FieldName>
+    <FieldTitle>类型编码</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_TYPECODE</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="2">
+    <FieldName>TYPENAME</FieldName>
+    <FieldTitle>类型名称</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_TYPENAME</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="3">
+    <FieldName>BUSINESS</FieldName>
+    <FieldTitle></FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_BUSINESS</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="4">
+    <FieldName>MEMO</FieldName>
+    <FieldTitle></FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_MEMO</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+</TABLE>

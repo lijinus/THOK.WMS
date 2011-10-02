@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TABLE name="WMS_BILLTYPE" ChineseName="分拣线信息" PrimaryKey="SORTING_CODE" OrderBy="SORTING_CODE" ViewName="DWV_DPS_SORTING">
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="0">
+    <FieldName>SORTINGID</FieldName>
+    <FieldTitle>SORTINGID</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>int</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_SORTINGID</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="1">
+    <FieldName>SORTING_CODE</FieldName>
+    <FieldTitle>分拣线编码</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_SORTING_CODE</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="T" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="2">
+    <FieldName>SORTING_NAME</FieldName>
+    <FieldTitle>分拣线名称</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_SORTING_TYPE</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="3">
+    <FieldName>SORTING_TYPE</FieldName>
+    <FieldTitle>分拣线类型</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_SORTING_TYPE</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="4">
+    <FieldName>ISACTIVE</FieldName>
+    <FieldTitle>是否可用</FieldTitle>
+    <Width>100</Width>
+    <HeadTextHeight></HeadTextHeight>
+    <ItemHeight></ItemHeight>	
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_ISACTIVE</ControlID>
+    <ControlType>TextBox</ControlType>
+    <NotNull>N</NotNull>
+    <Validate onfocus="" onblur=""></Validate>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" DisplayWhenEdit="T" HIDDEN="F" ColumnIndex="5">
+		<FieldName>UPDATE_DATE</FieldName>
+		<FieldTitle>更新时间</FieldTitle>
+		<Width>100</Width>
+		<HeadTextHeight></HeadTextHeight>
+		<ItemHeight></ItemHeight>
+		<DataType>string</DataType>
+		<DefaultValue></DefaultValue>
+		<ControlID>txt_UPDATE_DATE</ControlID>
+		<ControlType>TextBox</ControlType>
+		<NotNull>N</NotNull>
+		<Validate onfocus="" onblur=""></Validate>
+	</FIELD>
+</TABLE>

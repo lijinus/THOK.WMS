@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TABLE name="WMS_MOVE_BILLMASTER" ChineseName="出库单" PrimaryKey="BILLNO" OrderBy="BILLNO" ViewName="V_WMS_MOVE_BILLMASTER">
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="F" >
+    <FieldName>ID</FieldName>
+    <FieldTitle>ID</FieldTitle>
+    <DataType>int</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_ID</ControlID>
+    <ControlType>TextBox</ControlType>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" >
+    <FieldName>BILLNO</FieldName>
+    <FieldTitle>移位单号</FieldTitle>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_BILLNO</ControlID>
+    <ControlType>TextBox</ControlType>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" >
+    <FieldName>BILLDATE</FieldName>
+    <FieldTitle>制单日期</FieldTitle>
+    <DataType>DateTime</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_BILLDATE</ControlID>
+    <ControlType>TextBox</ControlType>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" >
+    <FieldName>BILLTYPE</FieldName>
+    <FieldTitle>单据类型</FieldTitle>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_BILLTYPE</ControlID>
+    <ControlType>TextBox</ControlType>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" >
+    <FieldName>VALIDATEPERSON</FieldName>
+    <FieldTitle>审核人</FieldTitle>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_VALIDATEPERSON</ControlID>
+    <ControlType>TextBox</ControlType>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" >
+    <FieldName>VALIDATEDATE</FieldName>
+    <FieldTitle>审核日期</FieldTitle>
+    <DataType>DateTime</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_VALIDATEDATE</ControlID>
+    <ControlType>TextBox</ControlType>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="F" >
+    <FieldName>WH_CODE</FieldName>
+    <FieldTitle>仓库编码</FieldTitle>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_WH_CODE</ControlID>
+    <ControlType>TextBox</ControlType>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" >
+    <FieldName>WH_NAME</FieldName>
+    <FieldTitle>仓库名称</FieldTitle>
+    <DataType>string</DataType>
+    <DefaultValue>SelectDialog2('txt_WH_NAME','WMS_WAREHOUSE','WH_NAME')</DefaultValue>
+    <ControlID>txt_WH_NAME</ControlID>
+    <ControlType>TextBox</ControlType>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" >
+    <FieldName>OPERATEPERSON</FieldName>
+    <FieldTitle>操作员</FieldTitle>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_OPERATEPERSON</ControlID>
+    <ControlType>TextBox</ControlType>
+  </FIELD>
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" >
+    <FieldName>STATUS</FieldName>
+    <FieldTitle>处理状态</FieldTitle>
+    <DataType>string</DataType>
+    <DefaultValue>MOVEBILLMASTER_STATUS</DefaultValue>
+    <ControlID>ddl_STATUS</ControlID>
+    <ControlType>DropdownList</ControlType>
+  </FIELD>
+
+
+  <FIELD DisplayWhenSelect="F" DisplayWhenQuery="T" >
+    <FieldName>MEMO</FieldName>
+    <FieldTitle>备注</FieldTitle>
+    <DataType>string</DataType>
+    <DefaultValue></DefaultValue>
+    <ControlID>txt_MEMO</ControlID>
+    <ControlType>MultiLineTextBox</ControlType>
+  </FIELD>
+</TABLE>

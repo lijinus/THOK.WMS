@@ -1,0 +1,80 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{90EDBDA6-ECFE-4121-8748-97FC13A9196B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>THOK.System</RootNamespace>
+    <AssemblyName>THOK.System</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="THOK.Util, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Reference\THOK.Util.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\DialogData.cs" />
+    <Compile Include="BLL\ExceptionLog.cs" />
+    <Compile Include="BLL\OperatorLog.cs" />
+    <Compile Include="BLL\SysConfigPlan.cs" />
+    <Compile Include="BLL\SysCopyRight.cs" />
+    <Compile Include="BLL\SysGroup.cs" />
+    <Compile Include="BLL\SysGroupModule.cs" />
+    <Compile Include="BLL\SysParameter.cs" />
+    <Compile Include="BLL\SysSystemParameter.cs" />
+    <Compile Include="BLL\SysUser.cs" />
+    <Compile Include="Dao\SysConfigPlanDao.cs" />
+    <Compile Include="Dao\SysCopyRightDao.cs" />
+    <Compile Include="Dao\SysExceptionalLogDao.cs" />
+    <Compile Include="Dao\SysGroupDao.cs" />
+    <Compile Include="Dao\SysOperatorLogDao.cs" />
+    <Compile Include="Dao\SysParameterDao.cs" />
+    <Compile Include="Dao\SysScheduleLogDao.cs" />
+    <Compile Include="Dao\SysSelectDialogDao.cs" />
+    <Compile Include="Dao\SysSystemParameterDao.cs" />
+    <Compile Include="Dao\SysUserConfigPlanDao.cs" />
+    <Compile Include="Dao\SysUserDao.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
